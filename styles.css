@@ -487,8 +487,10 @@ footer {
 
 @media (max-width: 768px) {
     .about-me__info--container {
-        margin-top: 32px;
+        margin: 24px 0 0 0;
+        height: 100%;
         flex-direction: column;
+        justify-content: flex-start;
     }
 
     .about-me__info--text {
@@ -503,18 +505,28 @@ footer {
     }
 
     .about-me__info--title {
-        font-size: 40px;
+        font-size: 60px;
+        margin-bottom: 24px;
+    }
+
+    .about-me__info--para {
+        margin-bottom: 24px;
+        font-size: 20px;
+    }
+
+    .about-me__links {
+        font-size: 24px;
     }
 
     .about-me__pic--mask {
-        width: 180px;
-        margin: 50px 0 0 0;
+        width: 200px;
+        margin: 80px 0 0 0;
     }
 
     .about-me__graphic--mask {
-        margin-top: 60px;
-        height: 260px;
+        display: none;
     }
+
 }
 
 @media (max-width: 700px) {
@@ -638,16 +650,5 @@ footer {
         font-size: 16px;
         margin: 0 6px;
     }
-
-    .about-me__graphic--mask {
-        margin-top: 60px;
-        height: 230px;
-    }
 }
 
-@media (max-width: 355px) {
-    .about-me__graphic--mask {
-        margin-top: 60px;
-        height: 200px;
-    }
-}
