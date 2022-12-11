@@ -640,12 +640,14 @@ footer {
     }
 
     .about-me__graphic--mask {
+        margin-top: 60px;
         height: 230px;
     }
 }
 
 @media (max-width: 355px) {
     .about-me__graphic--mask {
+        margin-top: 60px;
         height: 200px;
     }
 }
