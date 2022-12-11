@@ -640,7 +640,7 @@ footer {
     }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 416px) {
     .nav__logo {
         font-size: 20px;
         margin-right: 0px;
@@ -653,7 +653,7 @@ footer {
     }
 
     .project__description--title {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .project__description--sub-title {
@@ -663,12 +663,11 @@ footer {
 
 @media (max-width: 350px) {
     .project__description--title {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .project__description--sub-title {
         font-size: 12px;
     }
-
 }
 
