@@ -352,6 +352,7 @@ main {
     border-radius: 20px;
     overflow: hidden;
     position: relative;
+    padding: 20px;
 }
 
 .project__wrapper:before {
